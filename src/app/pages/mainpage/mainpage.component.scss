@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+section{
+
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+
+    article{
+        display: grid;
+        width: 500px;
+        height: 400px;
+        justify-self: center;
+        align-self: center;
+        mat-card{
+            display: grid;
+            .nameContainer{
+                width: 100%;
+                height: 100%;
+                background-color: rgba(200, 200, 200, 0.671);
+                display: grid;
+
+                h2{
+                    align-self: center;
+                    font-size: 80px;
+                }
+                .girlClass{
+                    font-family: 'Sacramento', cursive;
+                }
+                .boyClass{
+                    font-family: 'Bangers', cursive;
+                }
+            }
+            div{
+                align-self: end;
+                display: flex;
+                button{
+                    height: 100px;
+                    width: 100%;
+                    margin: 5px;
+                }
+                #girlBtn{
+                    background-color: rgb(219, 182, 224);
+                }
+                #boyBtn{
+                    background-color: rgb(172, 187, 200);
+                }
+            }
+        }
+    }
+}
