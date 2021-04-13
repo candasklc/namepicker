@@ -36,7 +36,7 @@ export class MainpageComponent implements OnInit {
             'Haradrim',
             'Elendil'
 
-  ]
+  ];
 
   constructor() { }
 
